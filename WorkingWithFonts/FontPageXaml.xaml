@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="WorkingWithFonts.FontPageXaml">
+    <StackLayout VerticalOptions = "CenterAndExpand"
+                 HorizontalOptions="CenterAndExpand">
+        <Label Text="Hello Forms with XAML"
+               FontFamily="Lobster" />
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Italics"
+                   FontAttributes="Italic" />
+            <Label Text="Bold"
+                   FontAttributes="Bold" />
+        </StackLayout>
+
+        <Label Text ="1234567890" FontFamily="Digital-7" FontAttributes="Bold" FontSize="48" BackgroundColor="Black" TextColor="Red"/>
+
+      
+    </StackLayout>
+</ContentPage>
